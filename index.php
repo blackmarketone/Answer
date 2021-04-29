@@ -40,29 +40,9 @@ section{
 </section>
 <?php
 if(isset($_POST['UUID'])){
-    echo "BITCH";
-    //pathogenfinder.github.io/testupload/
-    //user.github.io/Answer/uuid
-    //BlackmarketOne
-    //BlackmarketTwo
-    //BlackmarketThree
-    // BlackmarketFour
-    // BlackmarketFive
-    // BlackmarketSix
-    // BlackmarketSeven
-    // BlackmarketEight
-    // BlackmarketNine
-    // BlackmarketTen
-    // header("Location: https://BlackmarketOne.github.io/Answer".$_POST['UUID'].'.html');
-    // header("Location: https://BlackmarketTwo.github.io/Answer".$_POST['UUID'].'.html');
-    // header("Location: https://BlackmarketThree.github.io/Answer".$_POST['UUID'].'.html');
-    // header("Location: https://BlackmarketFour.github.io/Answer".$_POST['UUID'].'.html');
-    // header("Location: https://BlackmarketFive.github.io/Answer".$_POST['UUID'].'.html');
-    // header("Location: https://BlackmarketSix.github.io/Answer".$_POST['UUID'].'.html');
-    // header("Location: https://BlackmarketSeven.github.io/Answer".$_POST['UUID'].'.html');
-    // header("Location: https://BlackmarketEight.github.io/Answer".$_POST['UUID'].'.html');
-    // header("Location: https://BlackmarketNine.github.io/Answer".$_POST['UUID'].'.html');
-    // header("Location: https://BlackmarketTen.github.io/Answer".$_POST['UUID'].'.html');
+
+    header("Location: https://blackmarketone.github.io/Answer/".$_POST['UUID'].'.html');
+
 }
 ?>
 </body>
